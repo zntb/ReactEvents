@@ -1,10 +1,10 @@
-import classes from '../components/PageContent.module.css';
+import PageContent from '../components/PageContent';
 
 function HomePage() {
   return (
-    <>
-      <h1 className={classes.content}>Home Page</h1>
-    </>
+    <PageContent title="Welcome!">
+      <p>Browse all our amazing events!</p>
+    </PageContent>
   );
 }
 export default HomePage;
